@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: center;
+    align-content: right;
+    color: whitesmoke;
+}
+
+#home{
+    display: flex;
+    content: "";
+    position:absolute;
+    top: 0;
+    right:0;
+    background: url('pch1.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+    opacity: .8;
+    }
+
+    
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(17, 195, 226, 0.836);
+    position: sticky;
+    top: 0;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+#navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+.all{
+    box-shadow: 0 0 20px rgba(236, 224, 224, 0.8);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    right:70%;
+}
+
+
+.heading{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.btn{
+    padding: 10px 35px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid rgb(212, 78, 78);
+    color:solid rgb(231, 218, 218);
+    outline: none;
+    transition: .6s ease;
+    font-weight: bold;
+
+}
+.btn:hover{
+cursor: pointer;
+background-color: white;
+color: rgb(7, 3, 3);
+box-shadow: 0 0 5px white, 0 0 10px white,0 0 15px black;
+font-weight: bold;
+
+}
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+    padding-right: 4px;
+    
+}
+
+#cvv::before{
+content: "";
+position:absolute;
+top: 0;
+right:0;
+background: url('mp.jpg') no-repeat center center/cover;
+width: 100%;
+height: 3000px;
+z-index: -1;
+opacity: .8;
+}
+
+#iframe{
+    height: 20%;
+    width:20% ;
+    
+}
+
+#cvv{
+display: flex;
+flex-direction: column;
+box-sizing: border;
+padding: 10px;
+margin-bottom: 20px;
+align-items: right;
+font-size: large; 
+column-span: none; 
+  
+}
+
+#contact {
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+background-color: rgba(112, 96, 96, 0.9);
+color: white;
+height: 1000%;
+}
+#login {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(112, 96, 96, 0.9);
+    color: white;
+    height: 1000px;
+    }
+
+
+
+
+.form{
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+align-items: center;
+margin: 20px 0px;
+}
+
+.input{
+padding: 12px;
+margin: 15px;
+width: 30%;
+border: none;
+outline: none;
+}
+
+
+#send{
+padding:20px;
+width:20%;
+margin: 40px;
+border: none;
+outline: none;
+
+}
+
+#send:hover{
+cursor:pointer;
+box-shadow: 0 0 10px white;
+}
+
+.localStorage{
+    width: 350px;
+    height: 100%;
+    background-color: rgb(147, 185, 173);
+    margin-top:10px;
+    border-radius: 5px;
+    color: black;
+}
+
+
+
+.form{
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+align-items: center;
+margin: 20px 0px;
+}
+
+.input{
+padding: 12px;
+margin: 15px;
+width: 30%;
+border: none;
+outline: none;
+}
+
+#msg{
+width: 20%;
+padding: 10px;
+margin: 15px;
+border: none;
+outline: none;
+
+}
+
+#send{
+padding:10px;
+width:10%;
+margin: 40px;
+border: none;
+outline: none;
+
+}
+
+#send:hover{
+cursor:pointer;
+box-shadow: 0 0 10px white;
+}
+.submit{
+    padding: 10px 35px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid rgb(212, 78, 78);
+    color:solid rgb(231, 218, 218);
+    outline: none;
+    transition: .6s ease;
+    font-weight: bold;
+
+
+}
