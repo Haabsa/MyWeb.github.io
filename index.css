@@ -91,6 +91,8 @@ html{
     position: absolute;
     top: 30%;
     left :20%;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
 
