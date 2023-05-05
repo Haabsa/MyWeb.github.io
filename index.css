@@ -30,6 +30,8 @@ html{
     height: 900px;
     z-index: -1;
     opacity: .8;
+    flex-wrap: wrap;
+    justify-content: center;
     }
 
     
